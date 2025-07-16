@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+@font-face {
+    font-family: myfont;
+    src: url(Metro.otf);
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    padding-left: 20px;
+}
+#nav{
+    height: 10%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 22px;
+
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+    gap: 30px;
+}
+#main-1{
+    height: 90%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#main-12{
+    width:55%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* border: 1px solid white; */
+}
+#main-12 h1{
+    width: 80%;
+}
+#main-12 h1 span{
+    color: crimson;
+    font-family: 20px;
+    font-family: myfont;
+    
+}
+#main-12 h1:nth-child(1){
+    font-size: 40px;
+}
+#main-12 h1:nth-child(2){
+    font-size: 40px;
+    text-align: center;
+}
+#main-12 h1:nth-child(3){
+    width: 100%;
+    text-align: center;
+    /* font-size: 30px; */
+    padding-left: 70px;
+}
+#main-13{
+    width:40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid white; */
+}
+img{
+    height: 80%;
+    width: 70%;
+    border-radius: 5px;
+    position: absolute;
+}
+#img2{
+    transform:  rotateZ(20deg);
+}
+#img3{
+    transform:  rotateZ(10deg);
+}
